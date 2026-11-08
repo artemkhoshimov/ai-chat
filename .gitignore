@@ -1,3 +1,19 @@
+# Python
 .venv/
 __pycache__/
+*.pyc
+.pytest_cache/
+/backend/check_gigachat.py
+
+# Secrets
 .env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
